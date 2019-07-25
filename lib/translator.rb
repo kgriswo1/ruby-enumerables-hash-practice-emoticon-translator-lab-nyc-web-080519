@@ -7,11 +7,11 @@ def load_library(file_path)
               "get_emoticon" => Hash.new
   }
   
-  new_hash.each do |key, value|
-    emoticons.each do |key1, value1|
-      value[value1[0]] = 
-    end
-  end
+  # new_hash.each do |key, value|
+  #   emoticons.each do |key1, value1|
+  #     value[value1[0]] = key1
+  #   end
+  # end
   
   # emoticons.each do |key, value|
   #   new_hash["get_meaning"][value[0]] = key
