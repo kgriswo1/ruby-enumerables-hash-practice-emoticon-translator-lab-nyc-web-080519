@@ -37,7 +37,7 @@ def get_english_meaning(file_path, emoticon)
   
   new_hash["get_meaning"].each do |key, value|
     if key == emoticon 
-      return meaning
+      return value
     end
   end
   return "Sorry, that emoticon was not found"
