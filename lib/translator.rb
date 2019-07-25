@@ -3,8 +3,8 @@ require "yaml"
 
 def load_library(file_path)
   emoticons = YAML.load_file(file_path)
-  new_hash = {"get_meaning" => {} 
-              "get_emoticons" => {}
+  new_hash = {"get_meaning" => Hash.new,
+              "get_emoticons" => Hash.new
   }
   
   emoticons.each do |key, value|
