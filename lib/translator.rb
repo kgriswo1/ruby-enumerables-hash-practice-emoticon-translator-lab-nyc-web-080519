@@ -9,7 +9,7 @@ def load_library(file_path)
   
   new_hash.each do |key, value|
     emoticons.each do |key1, value1|
-      value[]
+      value[value1[0]] = 
     end
   end
   
